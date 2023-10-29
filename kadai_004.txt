@@ -1,0 +1,18 @@
+aikaminami@Aika-Minami ~ %                                      
+mkdir git_challenge
+aikaminami@Aika-Minami ~ % cd git_challenge
+aikaminami@Aika-Minami git_challenge % git init
+Initialized empty Git repository in /Users/aikaminami/git_challenge/.git/
+aikaminami@Aika-Minami git_challenge % git add hello_world.txt
+aikaminami@Aika-Minami git_challenge % git commit -m"最初のコミット"   
+[main (root-commit) f3e9ad5] 最初のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+aikaminami@Aika-Minami git_challenge % git add hello_world.txt
+aikaminami@Aika-Minami git_challenge % git commit -m"2回目のコミット"
+[main 48f0a46] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+aikaminami@Aika-Minami git_challenge % git log --oneline
+48f0a46 (HEAD -> main) 2回目のコミット
+f3e9ad5 最初のコミット
+aikaminami@Aika-Minami git_challenge % 
